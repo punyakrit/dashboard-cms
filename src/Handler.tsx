@@ -1,7 +1,9 @@
+import Home from "./pages/Home"
 
 function Handler() {
   return (
-    <div className="text-3xl">
+    <div>
+        <Home/>
     </div>
   )
 }

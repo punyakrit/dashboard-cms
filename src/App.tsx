@@ -1,11 +1,16 @@
-import Handler from "./Handler"
+import Handler from "./Handler";
+import Header from "./components/Header";
+// import SideBar from "./components/SideBar";
 
 function App() {
   return (
     <div>
-      <Handler/>
+      <Header />
+      <div>
+        <Handler/>
+      </div>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
