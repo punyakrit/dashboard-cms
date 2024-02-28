@@ -40,8 +40,6 @@ function CreateUser() {
 
   const closePopup = () => {
     setShowPopup(false);
-    // Redirect to home route after closing popup
-    // You may use any navigation method based on your routing library
     Navigate("/");
   };
 

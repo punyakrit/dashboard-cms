@@ -2,12 +2,13 @@
 
 import { FaArrowRight } from "react-icons/fa6";
 import { useNavigate } from "react-router-dom";
+import data from '../userData.json'
 
 function Home() {
     const Navigate = useNavigate()
     // Placeholder data
-    const totalUsers = 0;
-    const usersUnderVerification = 0;
+    const totalUsers = data.filter(user => user.verified).length;
+    const usersUnderVerification = data.filter(user => !user.verified).length;
   
     return (
       <div className="container mx-auto mt-8">
