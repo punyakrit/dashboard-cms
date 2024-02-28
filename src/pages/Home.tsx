@@ -2,7 +2,7 @@
 
 function Home() {
   return (
-    <div className="h-screen">
+    <div className="">
         <div className=" justify-center items-center flex">
 
       Home Page j
