@@ -2,7 +2,7 @@
 
 function Home() {
   return (
-    <div className="">
+    <div className="container mx-auto">
         <div className=" justify-center items-center flex">
 
       Home Page j
