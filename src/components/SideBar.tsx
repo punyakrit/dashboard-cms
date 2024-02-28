@@ -19,6 +19,9 @@ function SideBar() {
             <Link to="/User-Approval" className="block hover:bg-gray-700 py-2 px-4 rounded">User verification Status</Link>
           </li>
           <li className="mb-3">
+            <Link to="/Modify-User" className="block hover:bg-gray-700 py-2 px-4 rounded">Modify User Approval</Link>
+          </li>
+          <li className="mb-3">
             <Link to="/profile" className="block hover:bg-gray-700 py-2 px-4 rounded">Profile</Link>
           </li>
         </ul>

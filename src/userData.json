@@ -45,13 +45,113 @@
   },
   {
     "empId": 5,
-    "firstName": "Bob",
-    "lastName": "Brown",
-    "email": "bob@example.com",
-    "password": "passwordABC",
-    "city": "San Francisco",
-    "department": "Human Resources",
-    "workTeam": "Recruitment",
+    "firstName": "Emily",
+    "lastName": "Davis",
+    "email": "emily@example.com",
+    "password": "passwordDEF",
+    "city": "Seattle",
+    "department": "IT",
+    "workTeam": "Backend",
+    "verified": false
+  },
+  {
+    "empId": 6,
+    "firstName": "Michael",
+    "lastName": "Wilson",
+    "email": "michael@example.com",
+    "password": "passwordGHI",
+    "city": "Boston",
+    "department": "Sales",
+    "workTeam": "Customer Relations",
     "verified": true
+  },
+  {
+    "empId": 7,
+    "firstName": "Sarah",
+    "lastName": "Taylor",
+    "email": "sarah@example.com",
+    "password": "passwordJKL",
+    "city": "Houston",
+    "department": "Operations",
+    "workTeam": "Logistics",
+    "verified": true
+  },
+  {
+    "empId": 8,
+    "firstName": "David",
+    "lastName": "Anderson",
+    "email": "david@example.com",
+    "password": "passwordMNO",
+    "city": "Miami",
+    "department": "Finance",
+    "workTeam": "Budgeting",
+    "verified": false
+  },
+  {
+    "empId": 9,
+    "firstName": "Emma",
+    "lastName": "Thomas",
+    "email": "emma@example.com",
+    "password": "passwordPQR",
+    "city": "Atlanta",
+    "department": "Marketing",
+    "workTeam": "Advertising",
+    "verified": true
+  },
+  {
+    "empId": 10,
+    "firstName": "James",
+    "lastName": "Martinez",
+    "email": "james@example.com",
+    "password": "passwordSTU",
+    "city": "Denver",
+    "department": "Engineering",
+    "workTeam": "Backend",
+    "verified": false
+  },
+  {
+    "empId": 11,
+    "firstName": "Olivia",
+    "lastName": "Hernandez",
+    "email": "olivia@example.com",
+    "password": "passwordVWX",
+    "city": "Phoenix",
+    "department": "Human Resources",
+    "workTeam": "Training",
+    "verified": true
+  },
+  {
+    "empId": 12,
+    "firstName": "Daniel",
+    "lastName": "Young",
+    "email": "daniel@example.com",
+    "password": "passwordYZA",
+    "city": "Dallas",
+    "department": "IT",
+    "workTeam": "Networking",
+    "verified": false
+  },
+  {
+    "empId": 13,
+    "firstName": "Ava",
+    "lastName": "Garcia",
+    "email": "ava@example.com",
+    "password": "passwordBCD",
+    "city": "Philadelphia",
+    "department": "Marketing",
+    "workTeam": "Public Relations",
+    "verified": true
+  },
+  {
+    "empId": 14,
+    "firstName": "Alexander",
+    "lastName": "Rodriguez",
+    "email": "alexander@example.com",
+    "password": "passwordEFG",
+    "city": "Detroit",
+    "department": "Operations",
+    "workTeam": "Supply Chain",
+    "verified": false
   }
+  
 ]

@@ -7,6 +7,7 @@ import CreateUser from "./pages/CreateUser";
 import Login from "./pages/Login";
 import UserWaitingList from "./pages/UserWaitingList";
 import TotalUser from "./pages/TotalUser";
+import ModifyUser from "./pages/ModifyUser";
 
 // import SideBar from "./components/SideBar";
 
@@ -22,6 +23,8 @@ function App() {
             <Route path="/create-user" element={<CreateUser />} />
             <Route path="/User-Approval" element={<UserWaitingList />} />
             <Route path="/Total-User" element={<TotalUser />} />
+            <Route path="/Modify-User" element={<ModifyUser />} />
+
 
             <Route path="/login" element={<Login />} />
           </Routes>
