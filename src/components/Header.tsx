@@ -9,9 +9,7 @@ function Header() {
   const [popUp, setPopup] = useState(false);
   const navigate = useNavigate();
 
-  const hamburgerOnClick = () => {
-    setNav(!nav);
-  };
+
 
   const handleUserIconClick = () => {
     setPopup(!popUp);
