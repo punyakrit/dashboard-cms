@@ -2,8 +2,11 @@
 
 function Home() {
   return (
-    <div>
-      Home Page
+    <div className="h-screen">
+        <div className=" justify-center items-center flex">
+
+      Home Page j
+        </div>
     </div>
   )
 }
