@@ -8,6 +8,8 @@ import Login from "./pages/Login";
 import UserWaitingList from "./pages/UserWaitingList";
 import TotalUser from "./pages/TotalUser";
 import ModifyUser from "./pages/ModifyUser";
+import SignUp from "./pages/SignUp";
+import Error from "./pages/Error";
 
 // import SideBar from "./components/SideBar";
 
@@ -25,8 +27,10 @@ function App() {
             <Route path="/Total-User" element={<TotalUser />} />
             <Route path="/Modify-User" element={<ModifyUser />} />
 
-
+            <Route path="/signup" element={<SignUp/>}/>
             <Route path="/login" element={<Login />} />
+
+            <Route path="*" element={<Error/>}/>
           </Routes>
         </div>
         <Footer/>

@@ -1,15 +1,15 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
-function Login() {
+function SignUp() {
   const Navigate = useNavigate();
   const [username, setUsername] = useState("");
+  const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
   const handleSubmit = (event: any) => {
     event.preventDefault();
-    console.log("Username:", username);
-    console.log("Password:", password);
+
     Navigate("/");
   };
 
@@ -18,7 +18,7 @@ function Login() {
       <div className="max-w-md w-full space-y-8">
         <div>
           <h2 className="mt-6 text-center text-3xl font-extrabold text-gray-900">
-            Login Page
+            Create New Account
           </h2>
         </div>
         <form className="mt-8 space-y-6" onSubmit={handleSubmit}>
@@ -38,6 +38,22 @@ function Login() {
                 placeholder="Username"
                 value={username}
                 onChange={(event) => setUsername(event.target.value)}
+              />
+            </div>
+            <div>
+              <label htmlFor="email" className="sr-only">
+                Email
+              </label>
+              <input
+                id="email"
+                name="Email"
+                type="text"
+                autoComplete="Email"
+                required
+                className="appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm"
+                placeholder="Email"
+                value={email}
+                onChange={(event) => setEmail(event.target.value)}
               />
             </div>
             <div>
@@ -63,19 +79,19 @@ function Login() {
               type="submit"
               className="group relative w-full flex justify-center py-2 px-4 border border-transparent text-sm font-medium rounded-md text-white bg-gray-600 hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
             >
-              Login
+              Sign Up
             </button>
           </div>
         </form>
         <div className="text-center text-sm text-gray-500">
-          Don't Have an Account{" "}
+          Already have an Account{" "}
           <span
             className="font-bold text-gray-600 cursor-pointer"
             onClick={() => {
-              Navigate('/signup')
+              Navigate('/login')
             }}
           >
-            Create Account
+            Login to Account
           </span>
         </div>
       </div>
@@ -83,4 +99,4 @@ function Login() {
   );
 }
 
-export default Login;
+export default SignUp;

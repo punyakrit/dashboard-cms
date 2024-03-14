@@ -43,6 +43,12 @@ function Header() {
               View Profile
             </button>
           </div>
+
+          <div className="mt-5 flex justify-center">
+            <button className="bg-red-500 text-white font-bold py-2 px-4 rounded w-1/2" onClick={() => navigate("/login")}>
+              LogOut
+            </button>
+          </div>
         </div>
       )}
       {nav && <SideBar />}
