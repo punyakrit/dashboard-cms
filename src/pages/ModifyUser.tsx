@@ -1,7 +1,9 @@
 import  { useState } from 'react';
-import data from '../userData.json';
+import dataUs from '../userData.json';
 
 function ModifyUser() {
+  const {data} = dataUs;
+
   const [users, setUsers] = useState(data);
 
   const handleVerificationChange = (index:any, value:any) => {

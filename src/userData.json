@@ -1,92 +1,99 @@
-[
-  {
-    "empId": 1,
-    "firstName": "John",
-    "lastName": "Doe",
-    "email": "john@example.com",
-    "password": "password123",
-    "city": "New York",
-    "department": "Engineering",
-    "workTeam": "Frontend",
-    "verified": false
-  },
-  {
-    "empId": 2,
-    "firstName": "Jane",
-    "lastName": "Smith",
-    "email": "jane@example.com",
-    "password": "password456",
-    "city": "Los Angeles",
-    "department": "Marketing",
-    "workTeam": "Design",
-    "verified": true
-  },
-  {
-    "empId": 3,
-    "firstName": "Alice",
-    "lastName": "Johnson",
-    "email": "alice@example.com",
-    "password": "password789",
-    "city": "Chicago",
-    "department": "Finance",
-    "workTeam": "Accounting",
-    "verified": false
-  },
-  {
-    "empId": 4,
-    "firstName": "Bob",
-    "lastName": "Brown",
-    "email": "bob@example.com",
-    "password": "passwordABC",
-    "city": "San Francisco",
-    "department": "Human Resources",
-    "workTeam": "Recruitment",
-    "verified": true
-  },
-  {
-    "empId": 5,
-    "firstName": "Emily",
-    "lastName": "Davis",
-    "email": "emily@example.com",
-    "password": "passwordDEF",
-    "city": "Seattle",
-    "department": "IT",
-    "workTeam": "Backend",
-    "verified": false
-  },
-  {
-    "empId": 6,
-    "firstName": "Michael",
-    "lastName": "Wilson",
-    "email": "michael@example.com",
-    "password": "passwordGHI",
-    "city": "Boston",
-    "department": "Sales",
-    "workTeam": "Customer Relations",
-    "verified": true
-  },
-  {
-    "empId": 7,
-    "firstName": "Sarah",
-    "lastName": "Taylor",
-    "email": "sarah@example.com",
-    "password": "passwordJKL",
-    "city": "Houston",
-    "department": "Operations",
-    "workTeam": "Logistics",
-    "verified": true
-  },
-  {
-    "empId": 8,
-    "firstName": "David",
-    "lastName": "Anderson",
-    "email": "david@example.com",
-    "password": "passwordMNO",
-    "city": "Miami",
-    "department": "Finance",
-    "workTeam": "Budgeting",
-    "verified": true
-  }
-  
-  
-]
+{
+  "username": "Anoop",
+  "password": "123456789",
+  "email": "psm@gmail.com",
+  "roles": [
+    "Manager", "Designer"
+  ],
+  "admin": false,
+  "data": [
+    {
+      "empId": 1,
+      "firstName": "John",
+      "lastName": "Doe",
+      "email": "john@example.com",
+      "password": "password123",
+      "city": "New York",
+      "department": "Engineering",
+      "workTeam": "Frontend",
+      "verified": false
+    },
+    {
+      "empId": 2,
+      "firstName": "Jane",
+      "lastName": "Smith",
+      "email": "jane@example.com",
+      "password": "password456",
+      "city": "Los Angeles",
+      "department": "Marketing",
+      "workTeam": "Design",
+      "verified": true
+    },
+    {
+      "empId": 3,
+      "firstName": "Alice",
+      "lastName": "Johnson",
+      "email": "alice@example.com",
+      "password": "password789",
+      "city": "Chicago",
+      "department": "Finance",
+      "workTeam": "Accounting",
+      "verified": false
+    },
+    {
+      "empId": 4,
+      "firstName": "Bob",
+      "lastName": "Brown",
+      "email": "bob@example.com",
+      "password": "passwordABC",
+      "city": "San Francisco",
+      "department": "Human Resources",
+      "workTeam": "Recruitment",
+      "verified": true
+    },
+    {
+      "empId": 5,
+      "firstName": "Emily",
+      "lastName": "Davis",
+      "email": "emily@example.com",
+      "password": "passwordDEF",
+      "city": "Seattle",
+      "department": "IT",
+      "workTeam": "Backend",
+      "verified": false
+    },
+    {
+      "empId": 6,
+      "firstName": "Michael",
+      "lastName": "Wilson",
+      "email": "michael@example.com",
+      "password": "passwordGHI",
+      "city": "Boston",
+      "department": "Sales",
+      "workTeam": "Customer Relations",
+      "verified": true
+    },
+    {
+      "empId": 7,
+      "firstName": "Sarah",
+      "lastName": "Taylor",
+      "email": "sarah@example.com",
+      "password": "passwordJKL",
+      "city": "Houston",
+      "department": "Operations",
+      "workTeam": "Logistics",
+      "verified": true
+    },
+    {
+      "empId": 8,
+      "firstName": "David",
+      "lastName": "Anderson",
+      "email": "david@example.com",
+      "password": "passwordMNO",
+      "city": "Miami",
+      "department": "Finance",
+      "workTeam": "Budgeting",
+      "verified": true
+    }
+  ]
+}

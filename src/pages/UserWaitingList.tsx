@@ -1,7 +1,10 @@
-import data from '../userData.json';
+import dataUs from '../userData.json';
 
 
 function UserWaitingList() {
+
+  const {data} = dataUs;
+
   // Filter verified users
   const verifiedUsers = data.filter(user => !user.verified);
 

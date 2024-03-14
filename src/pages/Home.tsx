@@ -2,9 +2,12 @@
 
 import { FaArrowRight } from "react-icons/fa6";
 import { useNavigate } from "react-router-dom";
-import data from '../userData.json'
+import dataUs from '../userData.json'
 
 function Home() {
+
+  const {data} = dataUs;
+
     const Navigate = useNavigate()
     // Placeholder data
     const totalUsers = data.filter(user => user.verified).length;
